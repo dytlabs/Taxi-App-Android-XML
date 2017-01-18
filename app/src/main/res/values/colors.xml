@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#FF4630</color>
+    <color name="purple">#7745A9</color>
+    <color name="orangelight">#FF6250</color>
+    <color name="whiteblue">#F1F5F6</color>
+    <color name="dot_inactive">#E1E7EB</color>
+    <color name="dot_active">#A1ABB2</color>
+    <color name="textGray">#8B999F</color>
+    <color name="separator">#D0D4D9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="whitegrey">#F9F9F9</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uiresource.taksiku.SignUp">
+    <include
+        android:id="@+id/inc_toolbar"
+        layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/inc_toolbar"
+        android:layout_marginLeft="@dimen/m_left_right"
+        android:layout_marginRight="@dimen/m_left_right"
+        android:layout_marginTop="@dimen/space20"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_google"
+            android:text="sign up with google"
+            style="@style/ButtonOrange"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space15"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:text="sign up with facebook"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_facebook"
+            style="@style/ButtonNoBg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space15"
+            android:text="or"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:textColor="@color/textGray" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space15"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            style="@style/EditText"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space15"
+            android:inputType="textPassword"
+            android:hint="Password"
+            style="@style/EditText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space15"
+            android:text="sign up"
+            style="@style/ButtonOrange"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space20"
+            android:text="By joining you agree to our"
+            android:textSize="14sp"
+            android:textColor="@color/textGray" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space5"
+            android:text="Term &amp; Privacy"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange" />
+    </LinearLayout>
+</RelativeLayout>

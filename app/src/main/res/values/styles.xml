@@ -1,0 +1,128 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="colorAccent">@color/orangelight</item>
+    </style>
+
+    <style name="AppThemePurple" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryDark">@color/purple</item>
+        <item name="colorAccent">@color/orangelight</item>
+    </style>
+
+    <style name="AppThemeFull" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/orange</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="colorAccent">@color/orangelight</item>
+    </style>
+
+    <style name="AppThemeFullWhite" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/whiteblue</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="colorAccent">@color/orangelight</item>
+    </style>
+
+    <style name="ButtonOrange">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/btn_orange</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator" tools:targetApi="LOLLIPOP">@null</item>
+        <item name="android:paddingLeft">@dimen/space10</item>
+        <item name="android:paddingRight">@dimen/space10</item>
+    </style>
+
+    <style name="ButtonGrey">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/btn_grey</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator" tools:targetApi="LOLLIPOP">@null</item>
+        <item name="android:paddingLeft">@dimen/space10</item>
+        <item name="android:paddingRight">@dimen/space10</item>
+    </style>
+
+    <style name="ButtonRoundedOrange">
+        <item name="android:maxHeight">30dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/btn_rounded_orange</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator" tools:targetApi="LOLLIPOP">@null</item>
+        <item name="android:paddingLeft">@dimen/space10</item>
+        <item name="android:paddingRight">@dimen/space10</item>
+    </style>
+
+    <style name="ButtonWhite">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_white</item>
+        <item name="android:stateListAnimator" tools:targetApi="LOLLIPOP">@null</item>
+        <item name="android:paddingLeft">@dimen/space10</item>
+        <item name="android:paddingRight">@dimen/space10</item>
+    </style>
+
+    <style name="ButtonNoBg">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator" tools:targetApi="LOLLIPOP">@null</item>
+        <item name="android:paddingLeft">@dimen/space10</item>
+        <item name="android:paddingRight">@dimen/space10</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:minHeight">45dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@color/textGray</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">@dimen/space10</item>
+        <item name="android:paddingRight">@dimen/space10</item>
+        <item name="android:paddingTop">@dimen/space10</item>
+        <item name="android:paddingBottom">@dimen/space10</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="TextView14spBlackPad">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingTop">@dimen/space15</item>
+        <item name="android:paddingBottom">@dimen/space15</item>
+    </style>
+
+    <style name="TextView14spGrayPad">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textGray</item>
+        <item name="android:paddingTop">@dimen/space15</item>
+        <item name="android:paddingBottom">@dimen/space15</item>
+    </style>
+
+    <style name="AppThemeFull.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppThemeFull.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="StarRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:minHeight">18dip</item>
+        <item name="android:maxHeight">18dip</item>
+    </style>
+</resources>
